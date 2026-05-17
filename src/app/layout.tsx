@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Invisible Flows · 无形之流" }],
     title: TITLE_EN,
     description:
       "Six patterns. One frontier. A bilingual field guide drawn from public sources — analytical, victim-forward, never operational.",
@@ -35,6 +36,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: TITLE_EN,
     description: "Borders are recent. Movement is ancient.",
